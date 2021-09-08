@@ -1,0 +1,1965 @@
+# Translation of Plugins - Simple Membership - Development (trunk) in Japanese
+# This file is distributed under the same license as the Plugins - Simple Membership - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-01-23 15:18:37+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - Simple Membership - Development (trunk)\n"
+
+#: classes/class.swpm-utils.php:120
+msgid "Female"
+msgstr "女性"
+
+#: classes/class.swpm-utils.php:119
+msgid "Male"
+msgstr "男性"
+
+#: classes/class.swpm-wp-loaded-tasks.php:161
+msgid "Subscription has been cancelled."
+msgstr "定期購入をキャンセルしました。"
+
+#: classes/class-swpm-member-subscriptions.php:132
+msgid "Cancel Subscription"
+msgstr "定期購読をキャンセルする"
+
+#: classes/class.swpm-wp-loaded-tasks.php:121
+msgid "Success!"
+msgstr "成功しました。"
+
+#: views/payments/payment-gateway/admin_stripe_sca_subscription_button.php:118
+#: views/payments/payment-gateway/admin_stripe_subscription_button.php:118
+msgid "Stripe API ID"
+msgstr "Stripe API ID"
+
+#: views/payments/admin_add_edit_transaction_manually.php:99
+msgid "Member ID"
+msgstr "メンバー ID"
+
+#: views/payments/admin_all_payment_transactions.php:49
+msgid "Add a Transaction Manually"
+msgstr "手動でトランザクションを追加"
+
+#: views/payments/admin_add_edit_transaction_manually.php:68
+msgid "Add New Transaction"
+msgstr "新規トランザクションを追加"
+
+#: views/payments/admin_add_edit_transaction_manually.php:160
+msgid "Save Transaction Data"
+msgstr "トランザクションを保存"
+
+#: views/payments/payment-gateway/admin_stripe_sca_subscription_button.php:188
+msgid "Webhook Endpoint URL"
+msgstr "Webhook エンドポイント URL"
+
+#: views/payments/payment-gateway/admin_stripe_buy_now_button.php:107
+#: views/payments/payment-gateway/admin_stripe_buy_now_button.php:391
+#: views/payments/payment-gateway/admin_stripe_sca_buy_now_button.php:107
+#: views/payments/payment-gateway/admin_stripe_sca_buy_now_button.php:373
+#: views/payments/payment-gateway/admin_stripe_sca_subscription_button.php:148
+#: views/payments/payment-gateway/admin_stripe_subscription_button.php:140
+msgid "Use Global API Keys Settings"
+msgstr "グローバル API キー設定を使用"
+
+#: classes/class.swpm-settings.php:326
+msgid "Allow HTML in Emails"
+msgstr "メール内で HTML を許可"
+
+#: views/payments/payment-gateway/admin_stripe_sca_subscription_button.php:129
+msgid "Trial Period"
+msgstr "試用期間"
+
+#: views/payments/payment-gateway/admin_stripe_sca_buy_now_button.php:26
+msgid "Stripe SCA Buy Now Button Configuration"
+msgstr "Stripe SCA「今すぐ購入」ボタン設定"
+
+#: classes/class.swpm-utils-misc.php:699
+msgid "Stripe Buy Now"
+msgstr "Stripe「今すぐ購入」"
+
+#: classes/class.swpm-utils-misc.php:700
+msgid "Stripe Subscription"
+msgstr "Stripe サブスクリプション"
+
+#: classes/class.simple-wp-membership.php:686
+msgid "- an uppercase letter"
+msgstr "- 大文字"
+
+#: classes/class.simple-wp-membership.php:686
+msgid "- a lowercase letter"
+msgstr "- 小文字"
+
+#: classes/class.simple-wp-membership.php:686
+msgid "- a digit"
+msgstr "- 数字"
+
+#: classes/class.simple-wp-membership.php:686
+msgid "Password must contain at least:"
+msgstr "パスワードには少なくとも以下を含める必要があります:"
+
+#: views/admin_category_list.php:11
+msgid "to learn more."
+msgstr "さらに詳しく。"
+
+#: classes/class.swpm-settings.php:928
+msgid "give us a rating"
+msgstr "評価をお願いします"
+
+#: views/admin_edit.php:79
+msgid "Expiry Date"
+msgstr "有効期限"
+
+#: views/admin_add_level.php:45 views/admin_edit_level.php:53
+msgid "Note:"
+msgstr "注:"
+
+#: views/admin_category_list.php:21 views/admin_post_list.php:34
+msgid "General Protection"
+msgstr "一般的な保護"
+
+#: views/admin_post_list.php:11
+msgid "bulk protect posts and pages documentation"
+msgstr "投稿とページのドキュメントを一括保護"
+
+#: classes/class.swpm-front-registration.php:451
+#: classes/class.swpm-front-registration.php:504
+msgid "Account already active. "
+msgstr "アカウントはすでに有効です。"
+
+#: views/admin_add_level.php:43
+msgid "Enable new user activation via email. When enabled, members will need to click on an activation link that is sent to their email address to activate the account. Useful for free membership. "
+msgstr "メールによる新規ユーザーの登録を有効にします。有効にした場合、メンバーは登録完了のためのメールを受信し、メールのリンクをクリックすることになります。無料のメンバー区分に便利です。"
+
+#: views/admin_add_level.php:44 views/admin_edit_level.php:52
+msgid "View Documentation"
+msgstr "ドキュメントを表示"
+
+#: classes/class.swpm-front-registration.php:521
+msgid "Activation email has been sent. Please check your email and activate your account."
+msgstr "有効化のためのメールをお送りしました。メールボックスをご確認の上、アカウントを有効化してください。"
+
+#: classes/class.swpm-front-registration.php:499
+msgid "Cannot find member account."
+msgstr "メンバーのアカウントが見つかりません。"
+
+#: classes/class.swpm-utils.php:128 views/admin_members_list.php:35
+msgid "Activation Required"
+msgstr "有効化してください"
+
+#: classes/class.swpm-auth.php:160
+msgid "You need to activate your account. If you didn't receive an email then %s to resend the activation email."
+msgstr "アカウントを有効化してください。もしメールを受け取っていない場合は、%s にもう一度メールを送信してください。"
+
+#: classes/class.swpm-front-registration.php:446
+msgid "Can't find member account."
+msgstr "メンバーのアカウントが見つかりません。"
+
+#: classes/class.swpm-auth.php:160
+#: classes/class.swpm-front-registration.php:451
+#: classes/class.swpm-front-registration.php:504
+#: classes/class.swpm-utils-misc.php:196
+msgid "click here"
+msgstr "こちらをクリック"
+
+#: classes/class.swpm-utils-misc.php:195
+msgid "You will be automatically redirected in a few seconds. If not, please %s."
+msgstr "数秒後に自動でリダイレクトされます。もしできなければ、%s"
+
+#: classes/class.swpm-front-registration.php:472
+msgid "Success! Your account has been activated successfully."
+msgstr "成功しました！あなたのアカウントは有効化されました。"
+
+#: classes/class.swpm-front-registration.php:163
+msgid "You need to confirm your email address. Please check your email and follow instructions to complete your registration."
+msgstr "メールアドレスの確認が必要です。メールボックスをご確認いただき、説明にし沿って登録を完了してください。"
+
+#: classes/class.swpm-utils-member.php:88
+msgid "No Expiry"
+msgstr "無期限"
+
+#: views/admin_add_level.php:38 views/admin_edit_level.php:46
+msgid "Email Activation"
+msgstr "メールで有効化する"
+
+#: views/admin_edit_level.php:51
+msgid "Enable new user activation via email. When enabled, members will need to click on an activation link that is sent to their email address to activate the account. Useful for free membership."
+msgstr "メールによる新規ユーザーの登録を有効にします。有効にした場合、メンバーは登録完了のためのメールを受信し、メールのリンクをクリックすることになります。無料のメンバー区分に便利です。 "
+
+#: classes/class.swpm-settings.php:535
+msgid " Email Settings (Email Activation)"
+msgstr "メール設定 (メールによる有効化)"
+
+#: classes/class.simple-wp-membership.php:689
+msgid "Usernames can only contain: letters, numbers and .-_*@"
+msgstr "ユーザー名には半角英数字および .-_*@ のみを含めることができます"
+
+#: views/account_delete_warning.php:10
+msgid "Continue?"
+msgstr "続けますか？"
+
+#: views/account_delete_warning.php:13
+msgid "Password: "
+msgstr "パスワード:"
+
+#: views/account_delete_warning.php:14
+msgid "Confirm Account Deletion"
+msgstr "アカウント削除の確認"
+
+#: views/payments/payment-gateway/admin_paypal_smart_checkout_button.php:164
+msgid "Black"
+msgstr "黒"
+
+#: views/payments/payment-gateway/admin_paypal_smart_checkout_button.php:163
+msgid "Silver"
+msgstr "シルバー"
+
+#: views/payments/payment-gateway/admin_paypal_smart_checkout_button.php:162
+msgid "Blue"
+msgstr "青"
+
+#: views/payments/payment-gateway/admin_paypal_smart_checkout_button.php:161
+msgid "Gold"
+msgstr "ゴールド"
+
+#: views/payments/payment-gateway/admin_paypal_smart_checkout_button.php:158
+msgid "Color"
+msgstr "色"
+
+#: views/payments/payment-gateway/admin_paypal_smart_checkout_button.php:151
+msgid "Large"
+msgstr "大"
+
+#: views/payments/payment-gateway/admin_paypal_smart_checkout_button.php:150
+msgid "Medium"
+msgstr "中"
+
+#: views/payments/payment-gateway/admin_paypal_smart_checkout_button.php:147
+msgid "Size"
+msgstr "サイズ"
+
+#: views/payments/payment-gateway/admin_paypal_smart_checkout_button.php:178
+msgid "Layout"
+msgstr "レイアウト"
+
+#: views/payments/payment-gateway/admin_paypal_smart_checkout_button.php:143
+msgid "Button Appearance Settings"
+msgstr "ボタンの表示設定"
+
+#: views/payments/payment-gateway/admin_paypal_smart_checkout_button.php:182
+msgid "Select button layout."
+msgstr "ボタンのレイアウトを選択します。"
+
+#: views/payments/payment-gateway/admin_paypal_smart_checkout_button.php:181
+msgid "Horizontal"
+msgstr "水平方向"
+
+#: views/payments/payment-gateway/admin_paypal_smart_checkout_button.php:174
+msgid "Select button shape."
+msgstr "ボタンの形状を選択します。"
+
+#: views/payments/payment-gateway/admin_paypal_smart_checkout_button.php:172
+msgid "Rectangular"
+msgstr "長方形"
+
+#: views/payments/payment-gateway/admin_paypal_smart_checkout_button.php:170
+msgid "Shape"
+msgstr "形状"
+
+#: views/payments/payment-gateway/admin_paypal_smart_checkout_button.php:166
+msgid "Select button color."
+msgstr "ボタンのカラーを選択"
+
+#: views/payments/payment-gateway/admin_paypal_smart_checkout_button.php:200
+msgid "The following details are optional"
+msgstr "次の詳細はオプションです"
+
+#: views/payments/payment-gateway/admin_paypal_smart_checkout_button.php:194
+msgid "ELV"
+msgstr "ELV"
+
+#: views/payments/payment-gateway/admin_paypal_smart_checkout_button.php:191
+msgid "Payment Methods"
+msgstr "支払い方法"
+
+#: views/payments/payment-gateway/admin_paypal_smart_checkout_button.php:187
+msgid "Additional Settings"
+msgstr "追加設定"
+
+#. translators: %1$d is error code; %2$s is error message.
+#. translators: %1$d is error code; %2$s is error message.
+#: ipn/swpm-smart-checkout-ipn.php:264 ipn/swpm-smart-checkout-ipn.php:291
+msgid "Error occured during payment verification. Error code: %1$d. Message: %2$s"
+msgstr "支払いの確認中にエラーが発生しました。エラーコード: %1$d。メッセージ: %2$s"
+
+#: views/payments/payment-gateway/admin_paypal_smart_checkout_button.php:193
+msgid "PayPal Credit"
+msgstr "PayPal クレジット"
+
+#: views/payments/payment-gateway/admin_paypal_smart_checkout_button.php:173
+msgid "Pill"
+msgstr "丸"
+
+#: classes/class.swpm-settings.php:633
+msgid "After Logout Redirect URL"
+msgstr "ログアウト後のリダイレクト URL"
+
+#: classes/class.swpm-auth.php:61
+msgid "Click here"
+msgstr "こちらをクリック"
+
+#: classes/class.swpm-settings.php:796
+msgid "Users must accept the terms before they can complete the registration."
+msgstr "ユーザーは新規登録を完了する前に、利用規約の承認が必要です。"
+
+#: classes/class.swpm-settings.php:790
+msgid "Enable Terms and Conditions"
+msgstr "利用規約を有効化"
+
+#: classes/class.swpm-settings.php:786 views/add.php:68
+msgid "Terms and Conditions"
+msgstr "利用規約"
+
+#: classes/class.swpm-settings.php:216 classes/class.swpm-settings.php:217
+#: classes/class.swpm-settings.php:218
+msgid "here"
+msgstr "こちら"
+
+#: classes/class.swpm-members.php:29
+msgid "Last Login Date"
+msgstr "最終ログイン日"
+
+#: classes/class.swpm-front-registration.php:122
+msgid "You must agree to the privacy policy."
+msgstr "プライバシーポリシーの承認が必要です。"
+
+#: classes/class.swpm-front-registration.php:108
+msgid "You must accept the terms and conditions."
+msgstr "利用規約の承認が必要です。"
+
+#: views/add.php:80
+msgid "Privacy Policy"
+msgstr "プライバシーポリシー"
+
+#: views/add.php:80
+msgid "I agree to the "
+msgstr "了承します"
+
+#: views/add.php:68
+msgid "I accept the "
+msgstr "了承します"
+
+#: classes/class.swpm-settings.php:818
+msgid "Users must accept it before they can complete the registration."
+msgstr "ユーザーは新規登録を完了する前に承認してください。"
+
+#: classes/class.swpm-settings.php:812
+msgid "Enable Privacy Policy"
+msgstr "プライバシーポリシーを有効化"
+
+#: classes/class.swpm-settings.php:823
+msgid "Privacy Policy Page URL"
+msgstr "プライバシーポリシー URL"
+
+#: classes/class.swpm-settings.php:829
+msgid "Enter the URL of your privacy policy page."
+msgstr "プライバシーポリシーページ URL を入力する。"
+
+#: classes/class.swpm-settings.php:214
+msgid " This can be useful when troubleshooting an issue. Turn it off and reset the log files after the troubleshooting is complete."
+msgstr "これは、トラブルシューティングするときに役立ちます。トラブルシューティングが完了したら、オフにしてログファイルをリセットします。"
+
+#: views/admin_tools_settings.php:78 views/admin_tools_settings.php:88
+msgid "Re-create the Required Pages"
+msgstr "必要なページを再作成します"
+
+#: views/admin_tools_settings.php:14
+msgid "The required pages have been re-created."
+msgstr "必要なページが再作成されました。"
+
+#: classes/class.swpm-settings.php:801
+msgid "Terms and Conditions Page URL"
+msgstr "利用規約ページ URL"
+
+#: classes/class.swpm-settings.php:746
+msgid "Default Membership Level"
+msgstr "初期設定の会員レベル"
+
+#: classes/class.swpm-settings.php:221
+msgid "Enable Debug"
+msgstr "デバッグを有効化"
+
+#: classes/class.swpm-settings.php:729
+msgid "Create Member Accounts for New WP Users"
+msgstr "新しいユーザーのメンバーアカウントを作成"
+
+#: classes/shortcode-related/class.swpm-shortcodes-handler.php:140
+msgid "Not a member? "
+msgstr "メンバーではないですか？"
+
+#: classes/shortcode-related/class.swpm-shortcodes-handler.php:139
+msgid "Login Here"
+msgstr "ログインはこちら"
+
+#: classes/shortcode-related/class.swpm-shortcodes-handler.php:133
+msgid "Logged in as: "
+msgstr "現在のユーザーアカウント:"
+
+#: classes/shortcode-related/class.swpm-shortcodes-handler.php:141
+msgid "Join Now"
+msgstr "今すぐ参加"
+
+#: classes/class.simple-wp-membership.php:528
+msgid "No, Do not protect this content."
+msgstr "いいえ、このコンテンツを保護しません。"
+
+#: classes/class.swpm-settings.php:609
+msgid "Enable Auto Login After Registration"
+msgstr "新規登録後の自動ログインを有効化"
+
+#: classes/class.swpm-protection.php:23
+msgid "category protection menu"
+msgstr "カテゴリー保護メニュー"
+
+#: classes/class.swpm-protection.php:22
+msgid "The category or parent category of this post is protected. You can change the category protection settings from the "
+msgstr "この投稿のカテゴリー、あるいは親カテゴリーが保護されています。カテゴリー保護の変更はこちら"
+
+#: classes/class.simple-wp-membership.php:529
+msgid "Yes, Protect this content."
+msgstr "はい、コンテンツを保護します。"
+
+#: views/admin_edit.php:60
+msgid "this documentation"
+msgstr "このドキュメント"
+
+#: views/admin_tools_settings.php:65
+msgid "A prompt to complete registration email was also sent."
+msgstr "登録完了を要求するメールを送信しました。"
+
+#: classes/class.swpm-settings.php:309
+msgid "Email Settings Overview"
+msgstr "メール設定の概要"
+
+#: classes/class.swpm-settings.php:980 views/admin_tools_settings.php:82
+msgid "This documentation"
+msgstr "このドキュメント"
+
+#: classes/class.swpm-settings.php:597
+msgid "After Registration Redirect URL"
+msgstr "登録後の転送先 URL"
+
+#: classes/class.swpm-settings.php:718
+msgid "Force WP User Synchronization"
+msgstr "WP ユーザー同期を強制"
+
+#: views/edit.php:71
+msgid "Company Name"
+msgstr "会社名"
+
+#: views/admin_edit.php:109
+msgid "Save Data"
+msgstr "データを保存"
+
+#: classes/class.swpm-utils-misc.php:680
+msgid "(Please Select)"
+msgstr "(選択してください)"
+
+#: classes/class.swpm-ajax.php:38
+msgid "Name contains invalid character"
+msgstr "名前に無効な文字が含まれています。"
+
+#: views/payments/payment-gateway/admin_stripe_sca_subscription_button.php:142
+#: views/payments/payment-gateway/admin_stripe_subscription_button.php:134
+msgid "Stripe API Settings"
+msgstr "Stripe API 設定"
+
+#: views/payments/payment-gateway/admin_stripe_subscription_button.php:180
+msgid "Webook Endpoint URL"
+msgstr "Webook エンドポイント URL"
+
+#: views/loggedin.php:26
+msgid "Edit Profile"
+msgstr "プロフィールを編集"
+
+#: views/admin_members_list.php:32
+msgid "All"
+msgstr "すべて"
+
+#: classes/class.swpm-post-list.php:65
+msgid "Type"
+msgstr "タイプ"
+
+#: classes/class.swpm-post-list.php:55
+msgid "Categories"
+msgstr "カテゴリー"
+
+#: classes/class.swpm-post-list.php:46 classes/class.swpm-post-list.php:56
+#: classes/class.swpm-post-list.php:66
+msgid "Status"
+msgstr "ステータス"
+
+#: classes/class.swpm-post-list.php:45 classes/class.swpm-post-list.php:54
+#: classes/class.swpm-post-list.php:64
+msgid "Author"
+msgstr "著者"
+
+#: classes/class.swpm-post-list.php:44 classes/class.swpm-post-list.php:53
+#: classes/class.swpm-post-list.php:63
+msgid "Title"
+msgstr "タイトル"
+
+#: classes/class.swpm-membership-levels.php:270
+msgid "Add Level"
+msgstr "レベルの追加"
+
+#: classes/class.swpm-category-list.php:33
+msgid "Category ID"
+msgstr "カテゴリー ID"
+
+#: classes/class.swpm-category-list.php:34
+msgid "Category Name"
+msgstr "カテゴリー名"
+
+#: classes/class.simple-wp-membership.php:692
+msgid "Minimum "
+msgstr "最小"
+
+#: classes/admin-includes/class.swpm-payments-list-table.php:65
+msgid "View Profile"
+msgstr "プロフィールの表示"
+
+#: classes/admin-includes/class.swpm-payment-buttons-list-table.php:79
+msgid "Button Type"
+msgstr "ボタン形式"
+
+#: classes/class.swpm-access-control.php:56
+#: classes/class.swpm-access-control.php:128
+#: classes/class.swpm-access-control.php:212
+msgid "Your account has expired. "
+msgstr "アカウントの有効期限が切れています。"
+
+#: classes/class.simple-wp-membership.php:680
+msgid "Invalid email address"
+msgstr "無効なメールアドレス"
+
+#: classes/class.simple-wp-membership.php:673
+#: classes/class.simple-wp-membership.php:677
+msgid "Validating, please wait"
+msgstr "確認中です、お待ちください。"
+
+#: classes/class.simple-wp-membership.php:190
+msgid "clicking here"
+msgstr "ここをクリック"
+
+#: classes/class.simple-wp-membership.php:696
+msgid "Apostrophe character is not allowed"
+msgstr "アポストロフィーは使えません"
+
+#: classes/class.swpm-comment-form-related.php:79
+msgid "Comments not allowed by a non-member."
+msgstr "メンバー以外の方のコメントは許可されていません。"
+
+#: classes/class.swpm-comment-form-related.php:40
+msgid "Please Login to Comment."
+msgstr "コメントを残すにはログインしてください。"
+
+#: classes/class.swpm-comment-form-related.php:15
+msgid "Please login to comment."
+msgstr "コメントを残すにはログインしてください。"
+
+#: classes/class.swpm-category-list.php:35
+msgid "Category Type (Taxonomy)"
+msgstr "カテゴリータイプ(タクソノミー)"
+
+#: classes/class.swpm-auth.php:71
+msgid "Captcha validation failed on login form."
+msgstr "ログインフォームのキャプチャ認証に失敗しました。"
+
+#: classes/class.swpm-auth.php:64
+msgid "Your normal visitors or members will never see this message. This message is ONLY for ADMIN user."
+msgstr "訪問者やメンバーはこのメッセージを目にすることはありません。管理人のみに表示されます。"
+
+#: classes/class.swpm-auth.php:62
+msgid "You are logged into the site as an ADMIN user in this browser. First, logout from WP Admin then you will be able to log in as a normal member."
+msgstr "このブラウザーで管理人としてサイトにログインしています。まず管理人をログアウトすると、通常のメンバーとしてログインできるようになります。"
+
+#: classes/class.swpm-members.php:584
+msgid "Access starts date change operation successfully completed."
+msgstr "アクセス開始日の変更に成功しました。"
+
+#: classes/class.swpm-members.php:530 classes/class.swpm-members.php:567
+msgid "Error! Please select a membership level first."
+msgstr "エラー！メンバー区分を先に選択してください。"
+
+#: classes/class.swpm-members.php:547
+msgid "Membership level change operation completed successfully."
+msgstr "メンバー区分の変更に成功しました。"
+
+#: classes/class.swpm-front-registration.php:344
+msgid "Please correct the following."
+msgstr "次の項目を修正してください。"
+
+#: classes/class.swpm-front-registration.php:65
+msgid "You will receive a unique link via email after the payment. You will be able to use that link to complete the premium membership registration."
+msgstr "支払後にメールでリンクをお送りします。プレミアムメンバーシップ登録にはそのリンクを使用してください。"
+
+#: classes/class.swpm-settings.php:106
+msgid "Use this option if you want to show the admin toolbar to admin users only. The admin toolbar will be hidden for all other users."
+msgstr "管理人だけに管理ツールバーを表示したいときは、このオプションを使用します。管理ツールバーは他のすべてのユーザーからは見えないようにします。"
+
+#: classes/class.swpm-settings.php:100
+msgid "Show Adminbar to Admin"
+msgstr "管理人に管理ツールバーを表示"
+
+#: classes/class.swpm-post-list.php:132
+msgid "Protection settings updated!"
+msgstr "保護設定が更新されました！"
+
+#: classes/class.swpm-membership-levels.php:273
+msgid "Post and Page Protection"
+msgstr "投稿と固定ページの保護"
+
+#: classes/class.swpm-membership-level.php:100
+msgid "Membership Level Updated Successfully."
+msgstr "メンバーシップ区分の更新が成功しました。"
+
+#: classes/class.swpm-settings.php:137
+msgid "Members Must be Logged in to Comment"
+msgstr "メンバーはログインするとコメントできます。"
+
+#: views/admin_edit.php:114
+msgid "Delete User Profile"
+msgstr "ユーザープロフィールを削除"
+
+#: views/admin_edit.php:94 views/admin_edit.php:101
+msgid "This value gets updated when this member logs into your site."
+msgstr "この値はメンバーがあなたのサイトにログインすると更新されます。"
+
+#: views/admin_edit.php:91
+msgid "Last Accessed Date"
+msgstr "最終アクセス日"
+
+#: views/admin_add_level.php:6
+msgid "Add Membership Level"
+msgstr "メンバー区分を追加"
+
+#: classes/shortcode-related/class.swpm-shortcodes-handler.php:111
+#: classes/shortcode-related/class.swpm-shortcodes-handler.php:156
+#: classes/shortcode-related/class.swpm-shortcodes-handler.php:238
+msgid "You are not logged-in as a member"
+msgstr "メンバーとしてログインしていません。"
+
+#: classes/shortcode-related/class.swpm-shortcodes-handler.php:109
+msgid "Expiry: "
+msgstr "有効期限:"
+
+#: classes/class.swpm-utils-misc.php:375
+msgid " your account to gain access to this content."
+msgstr "あなたのアカウントはこのコンテンツにアクセスできます。"
+
+#: classes/class.swpm-utils-misc.php:375
+msgid "renew"
+msgstr "更新"
+
+#: views/payments/payment-gateway/admin_braintree_buy_now_button.php:113
+#: views/payments/payment-gateway/admin_stripe_buy_now_button.php:145
+#: views/payments/payment-gateway/admin_stripe_buy_now_button.php:429
+#: views/payments/payment-gateway/admin_stripe_sca_buy_now_button.php:145
+#: views/payments/payment-gateway/admin_stripe_sca_buy_now_button.php:411
+msgid "The following details are optional."
+msgstr "次の詳細はオプションです。"
+
+#: views/edit.php:32 views/edit.php:36
+msgid "Leave empty to keep the current password"
+msgstr "現在のパスワードのままにする場合は、空欄にしてください"
+
+#: views/admin_tools_settings.php:53
+msgid "Link(s) generated successfully. The following link(s) can be used to complete the registration."
+msgstr "リンクの作成が成功しました。次のリンクを登録を完了するために使用します。"
+
+#: classes/admin-includes/class.swpm-payments-list-table.php:90
+#: views/payments/admin_add_edit_transaction_manually.php:141
+msgid "Subscriber ID"
+msgstr "購読者 ID"
+
+#: classes/admin-includes/class.swpm-payments-list-table.php:87
+msgid "Member Profile"
+msgstr "メンバープロフィール"
+
+#: classes/class.simple-wp-membership.php:683
+msgid "This field is required"
+msgstr "このフィールドは必須です"
+
+#: views/payments/payment-gateway/admin_stripe_buy_now_button.php:102
+#: views/payments/payment-gateway/admin_stripe_buy_now_button.php:386
+#: views/payments/payment-gateway/admin_stripe_sca_buy_now_button.php:102
+#: views/payments/payment-gateway/admin_stripe_sca_buy_now_button.php:368
+msgid "Stripe API keys. You can get this from your Stripe account."
+msgstr "Stripe API keys は、あなたの Stripe アカウントから入手できます。"
+
+#: classes/class.swpm-front-registration.php:360
+msgid "Captcha validation failed."
+msgstr "キャプチャ認証に失敗しました。"
+
+#: classes/class.swpm-settings.php:111
+msgid "Disable Access to WP Dashboard"
+msgstr "WP ダッシュボードへのアクセスを無効にする"
+
+#: classes/class.simple-wp-membership.php:189
+msgid "The admin of this site does not allow users to access the wp dashboard."
+msgstr "ウェブサイトの管理人は WordPress のダッシュボードへのアクセスをユーザーに許可していません。"
+
+#: classes/class.swpm-members.php:720
+msgid "Bulk Operation"
+msgstr "一括操作"
+
+#: classes/class.swpm-members.php:54
+msgid "Set Status to Expired"
+msgstr "ステータスを期限切れに設定"
+
+#: classes/class.swpm-members.php:53
+msgid "Set Status to Pending"
+msgstr "ステータスを保留中に設定"
+
+#: classes/class.swpm-settings.php:699
+msgid "Admin Dashboard Access Permission"
+msgstr "管理ダッシュボードのアクセス許可"
+
+#: classes/class.swpm-settings.php:426
+msgid "Admin Notification Email Body"
+msgstr "管理者通知メール本文"
+
+#: classes/class.swpm-settings.php:415
+msgid "Admin Notification Email Subject"
+msgstr "管理者通知メールの件名"
+
+#: views/admin_edit_level.php:10
+msgid "You are currently editing: "
+msgstr "現在編集中:"
+
+#: views/payments/payment-gateway/admin_stripe_buy_now_button.php:26
+#: views/payments/payment-gateway/admin_stripe_buy_now_button.php:307
+#: views/payments/payment-gateway/admin_stripe_sca_buy_now_button.php:289
+msgid "Stripe Buy Now Button Configuration"
+msgstr "Stripe「今すぐ購入」ボタン設定"
+
+#: views/payments/payment-gateway/admin_stripe_sca_subscription_button.php:84
+#: views/payments/payment-gateway/admin_stripe_subscription_button.php:84
+msgid "Stripe Subscription Button Configuration"
+msgstr "Stripe サブスクリプションボタン設定"
+
+#: classes/class.swpm-form.php:31
+msgid " Use a different username to complete the registration. If you want to use that username then you must enter the correct email address associated with the existing WP user to connect with that account."
+msgstr "別のユーザー名を使用して登録を完了してください。そのユーザー名を使用したい場合は、アカウントを連携するため、既存の WP ユーザーに関連付けられている正しいメールアドレスを入力する必要があります。"
+
+#: classes/class.swpm-form.php:38
+msgid " Use a different email address to complete the registration. If you want to use that email then you must enter the correct username associated with the existing WP user to connect with that account."
+msgstr "別のメールアドレスを使用して登録を完了してください。そのメールアドレスを使用したい場合は、アカウントを連携するため、既存の WP ユーザーに関連付けられている正しいユーザー名を入力する必要があります。"
+
+#: views/payments/payment-gateway/admin_braintree_buy_now_button.php:80
+msgid "Public Key"
+msgstr "公開鍵"
+
+#: views/payments/payment-gateway/admin_braintree_buy_now_button.php:87
+msgid "Private Key"
+msgstr "秘密鍵"
+
+#: views/payments/payment-gateway/admin_braintree_buy_now_button.php:72
+msgid "Merchant ID"
+msgstr "マーチャント ID"
+
+#: views/payments/payment-gateway/admin_braintree_buy_now_button.php:95
+msgid "Merchant Account ID"
+msgstr "マーチャントアカウント ID"
+
+#: classes/class.simple-wp-membership.php:739
+msgid "Settings"
+msgstr "設定"
+
+#: views/add.php:26 views/admin_add.php:20 views/admin_edit.php:44
+#: views/edit.php:31 views/login.php:19
+msgid "Password"
+msgstr "パスワード"
+
+#: views/admin_addon_settings.php:9
+msgid "Save Changes"
+msgstr "変更を保存"
+
+#: views/payments/admin_create_payment_buttons.php:58
+msgid "Next"
+msgstr "次"
+
+#: classes/class.swpm-membership-levels.php:218 views/admin_members_list.php:56
+#: views/payments/admin_all_payment_transactions.php:16
+msgid "Search"
+msgstr "検索"
+
+#: views/edit.php:84
+msgid "Update"
+msgstr "更新"
+
+#: classes/class.swpm-utils.php:129 views/admin_members_list.php:36
+msgid "Pending"
+msgstr "保留"
+
+#: views/admin_tools_settings.php:32
+msgid "OR"
+msgstr "OR"
+
+#: classes/class.swpm-membership-levels.php:22
+msgid "Role"
+msgstr "権限グループ"
+
+#: classes/class.swpm-members.php:25 views/add.php:22 views/edit.php:27
+msgid "Email"
+msgstr "メール"
+
+#: views/admin_tools_settings.php:44
+msgid "Submit"
+msgstr "送信"
+
+#: classes/class.simple-wp-membership.php:737 classes/class.swpm-members.php:12
+#: classes/class.swpm-members.php:718
+msgid "Members"
+msgstr "メンバー"
+
+#: classes/class.swpm-utils.php:130 views/admin_members_list.php:38
+msgid "Expired"
+msgstr "期限切れ"
+
+#: classes/class.swpm-form.php:81
+msgid "Password is required"
+msgstr "パスワードは入力必須です"
+
+#: classes/class.swpm-form.php:88
+msgid "Password mismatch"
+msgstr "パスワードが一致していません"
+
+#: classes/class.swpm-front-registration.php:176
+#: classes/class.swpm-utils-misc.php:363 classes/class.swpm-utils-misc.php:375
+msgid "Please"
+msgstr "お願い"
+
+#: classes/class.swpm-front-registration.php:176
+#: classes/class.swpm-utils-misc.php:363 views/login.php:32
+msgid "Login"
+msgstr "ログイン"
+
+#: classes/class.swpm-front-registration.php:195
+msgid "Please correct the following"
+msgstr "下記の内容を修正してください"
+
+#: classes/class.swpm-front-registration.php:243
+msgid "Membership Level Couldn't be found."
+msgstr "会員レベルが見つかりませんでした。"
+
+#: classes/class.swpm-front-registration.php:371
+msgid "Email address not valid."
+msgstr "メールアドレスが有効ではありません。"
+
+#: classes/class.swpm-front-registration.php:417
+msgid "New password has been sent to your email address."
+msgstr "新しいパスワードがメールアドレスに送信されました。"
+
+#: classes/class.swpm-level-form.php:50
+msgid "Date format is not valid."
+msgstr "日付の形式が有効ではありません。"
+
+#: classes/class.swpm-members.php:28 views/admin_members_list.php:45
+msgid "Account State"
+msgstr "アカウントの状態"
+
+#: classes/class.swpm-settings.php:52
+msgid "Plugin Documentation"
+msgstr "プラグインのドキュメント"
+
+#: classes/class.swpm-settings.php:56
+msgid "Enable Free Membership"
+msgstr "無料会員を有効にします"
+
+#: classes/class.swpm-settings.php:27
+msgid "Email Settings"
+msgstr "メール設定"
+
+#: classes/class.swpm-settings.php:28
+msgid "Tools"
+msgstr "ツール"
+
+#: classes/class.swpm-settings.php:30
+msgid "Addons Settings"
+msgstr "アドオンの設定"
+
+#: classes/class.swpm-settings.php:393
+msgid "Send Notification to Admin"
+msgstr "管理者に通知を送信"
+
+#: classes/class.swpm-settings.php:399
+msgid "Enable this option if you want the admin to receive a notification when a member registers."
+msgstr "メンバー登録通知を管理者が受信したい場合は、このオプションを有効にします。"
+
+#: classes/class.swpm-members.php:719 views/admin_add.php:7
+msgid "Add Member"
+msgstr "メンバーの追加"
+
+#: views/admin_add.php:8
+msgid "Create a brand new user and add it to this site."
+msgstr "新しいユーザーを作成し、このサイトに追加します。"
+
+#: views/admin_add.php:25 views/admin_edit.php:48
+msgid "Strength indicator"
+msgstr "強度の指標"
+
+#: classes/class.swpm-settings.php:154
+msgid "Pages Settings"
+msgstr " ページ設定 "
+
+#: classes/class.simple-wp-membership.php:431
+#: classes/class.swpm-wp-loaded-tasks.php:141
+msgid "You are not logged in."
+msgstr "ログインしていません。"
+
+#: views/login.php:26
+msgid "Remember Me"
+msgstr "ログイン情報を保存"
+
+#: views/add.php:91
+msgid "Register"
+msgstr "登録"
+
+#: classes/class.swpm-members.php:22 views/add.php:18 views/admin_add.php:12
+#: views/admin_edit.php:19 views/edit.php:23
+msgid "Username"
+msgstr "ユーザー名"
+
+#: views/forgot_password.php:12
+msgid "Reset Password"
+msgstr "パスワードリセット"
+
+#: classes/class.swpm-utils.php:126 views/admin_members_list.php:33
+msgid "Active"
+msgstr "有効"
+
+#: views/admin_add.php:12 views/admin_add.php:16 views/admin_add_level.php:12
+#: views/admin_add_level.php:16 views/admin_add_level.php:20
+#: views/admin_edit.php:19 views/admin_edit.php:40
+#: views/admin_edit_level.php:16 views/admin_edit_level.php:20
+#: views/admin_edit_level.php:24
+msgid "(required)"
+msgstr "(必須)"
+
+#: classes/class.swpm-members.php:714 views/admin_members_list.php:69
+msgid "Add New"
+msgstr "新規追加"
+
+#: classes/class.swpm-settings.php:25 classes/class.swpm-settings.php:53
+msgid "General Settings"
+msgstr "一般設定"
+
+#: views/admin_member_form_common_part.php:54
+msgid "Company"
+msgstr "会社"
+
+#: classes/class.swpm-utils-misc.php:113
+#: classes/shortcode-related/class.swpm-shortcodes-handler.php:135
+msgid "Profile"
+msgstr "プロフィール"
+
+#: views/admin_member_form_common_part.php:50 views/edit.php:67
+msgid "Country"
+msgstr "国"
+
+#: views/admin_member_form_common_part.php:38 views/edit.php:55
+msgid "City"
+msgstr "市区町村"
+
+#: classes/class.simple-wp-membership.php:741
+msgid "Add-ons"
+msgstr "アドオン"
+
+#: classes/shortcode-related/class.swpm-shortcodes-handler.php:136
+#: views/loggedin.php:31
+msgid "Logout"
+msgstr "ログアウト"
+
+#: classes/class.swpm-utils.php:127 views/admin_members_list.php:34
+msgid "Inactive"
+msgstr "停止中"
+
+#: views/loggedin.php:14
+msgid "Membership"
+msgstr "メンバーシップ"
+
+#: classes/class.swpm-front-registration.php:176
+msgid "Registration Successful. "
+msgstr "登録が完了しました。"
+
+#: classes/class.swpm-utils.php:111
+msgid "Never"
+msgstr "期限なし"
+
+#: views/payments/payment-gateway/admin_paypal_buy_now_button.php:100
+#: views/payments/payment-gateway/admin_paypal_buy_now_button.php:298
+#: views/payments/payment-gateway/admin_paypal_subscription_button.php:85
+#: views/payments/payment-gateway/admin_paypal_subscription_button.php:370
+msgid "PayPal Email"
+msgstr "PayPal メール"
+
+#: classes/class.swpm-settings.php:29 classes/class.swpm-settings.php:569
+msgid "Advanced Settings"
+msgstr "詳細設定"
+
+#: classes/class.swpm-form.php:48
+msgid "Username is required"
+msgstr "ユーザー名は必須です"
+
+#: classes/class.swpm-form.php:99
+msgid "Email is required"
+msgstr "メールアドレスは必須です"
+
+#: classes/class.swpm-form.php:103
+msgid "Email is invalid"
+msgstr "メールアドレスは無効です"
+
+#: classes/class.swpm-front-registration.php:386
+#: classes/class.swpm-front-registration.php:418
+msgid "Email Address: "
+msgstr "メールアドレス: "
+
+#: classes/class.swpm-members.php:11
+msgid "Member"
+msgstr "メンバー"
+
+#: classes/class.swpm-settings.php:89
+msgid "Hide Adminbar"
+msgstr "管理バーを表示"
+
+#: classes/class.swpm-settings.php:340 classes/class.swpm-settings.php:371
+#: classes/class.swpm-settings.php:452 classes/class.swpm-settings.php:477
+#: classes/class.swpm-settings.php:513 classes/class.swpm-settings.php:538
+msgid "Email Subject"
+msgstr "メール件名"
+
+#: classes/class.swpm-utils.php:481 views/account_delete_warning.php:3
+msgid "Delete Account"
+msgstr "アカウントの削除"
+
+#: classes/class.swpm-utils-misc.php:57
+msgid "Registration"
+msgstr "登録"
+
+#: classes/class.swpm-utils-misc.php:141
+msgid "Password Reset"
+msgstr "パスワードのリセット"
+
+#: views/admin_member_form_common_part.php:46 views/edit.php:63
+msgid "Zipcode"
+msgstr "郵便番号"
+
+#: views/admin_member_form_common_part.php:34 views/edit.php:51
+msgid "Street"
+msgstr "番地"
+
+#: views/admin_member_form_common_part.php:30 views/edit.php:47
+msgid "Phone"
+msgstr "電話番号"
+
+#: views/admin_member_form_common_part.php:23
+msgid "Gender"
+msgstr "性別"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://simple-membership-plugin.com/"
+msgstr "https://simple-membership-plugin.com/"
+
+#: classes/class.swpm-settings.php:26
+msgid "Payment Settings"
+msgstr "支払い設定"
+
+#. Plugin Name of the plugin
+msgid "Simple WordPress Membership"
+msgstr "Simple WordPress Membership"
+
+#: views/payments/payment-gateway/admin_braintree_buy_now_button.php:34
+#: views/payments/payment-gateway/admin_paypal_buy_now_button.php:216
+#: views/payments/payment-gateway/admin_paypal_smart_checkout_button.php:33
+#: views/payments/payment-gateway/admin_paypal_subscription_button.php:304
+#: views/payments/payment-gateway/admin_stripe_buy_now_button.php:316
+#: views/payments/payment-gateway/admin_stripe_sca_buy_now_button.php:298
+#: views/payments/payment-gateway/admin_stripe_sca_subscription_button.php:92
+#: views/payments/payment-gateway/admin_stripe_subscription_button.php:92
+msgid "Button ID"
+msgstr "ボタン ID"
+
+#: views/admin_add.php:16 views/admin_edit.php:40
+msgid "E-mail"
+msgstr "メール"
+
+#: views/admin_member_form_common_part.php:42 views/edit.php:59
+msgid "State"
+msgstr "都道府県"
+
+#: views/add.php:30 views/edit.php:35
+msgid "Repeat Password"
+msgstr "パスワードを再入力"
+
+#. Author of the plugin
+msgid "smp7, wp.insider"
+msgstr "smp7, wp.insider"
+
+#: views/payments/payment-gateway/paypal_button_shortcode_view.php:235
+#: views/payments/payment-gateway/paypal_button_shortcode_view.php:237
+msgid "Subscribe Now"
+msgstr "今すぐ購読する"
+
+#: views/payments/payment-gateway/braintree_button_shortcode_view.php:21
+#: views/payments/payment-gateway/paypal_button_shortcode_view.php:100
+#: views/payments/payment-gateway/paypal_button_shortcode_view.php:102
+#: views/payments/payment-gateway/paypal_smart_checkout_button_shortcode_view.php:15
+#: views/payments/payment-gateway/stripe_button_shortcode_view.php:20
+#: views/payments/payment-gateway/stripe_button_shortcode_view.php:161
+#: views/payments/payment-gateway/stripe_sca_button_shortcode_view.php:20
+#: views/payments/payment-gateway/stripe_sca_button_shortcode_view.php:144
+msgid "Buy Now"
+msgstr "購入する"
+
+#: views/payments/payment-gateway/admin_paypal_subscription_button.php:149
+#: views/payments/payment-gateway/admin_paypal_subscription_button.php:436
+msgid "Trial Billing Period"
+msgstr "トライアル請求期間"
+
+#: views/payments/payment-gateway/admin_paypal_subscription_button.php:141
+#: views/payments/payment-gateway/admin_paypal_subscription_button.php:428
+msgid "Trial Billing Amount"
+msgstr "トライアル請求金額"
+
+#: views/payments/payment-gateway/admin_paypal_subscription_button.php:122
+#: views/payments/payment-gateway/admin_paypal_subscription_button.php:407
+msgid "Re-attempt on Failure"
+msgstr "失敗時の再試行"
+
+#: views/payments/payment-gateway/admin_paypal_subscription_button.php:101
+#: views/payments/payment-gateway/admin_paypal_subscription_button.php:386
+msgid "Billing Cycle"
+msgstr "請求サイクル"
+
+#: views/payments/payment-gateway/admin_paypal_subscription_button.php:93
+#: views/payments/payment-gateway/admin_paypal_subscription_button.php:378
+msgid "Billing Amount Each Cycle"
+msgstr "各サイクルの請求額"
+
+#: views/payments/payment-gateway/admin_paypal_buy_now_button.php:52
+#: views/payments/payment-gateway/admin_paypal_buy_now_button.php:250
+#: views/payments/payment-gateway/admin_paypal_smart_checkout_button.php:67
+#: views/payments/payment-gateway/admin_paypal_subscription_button.php:45
+#: views/payments/payment-gateway/admin_paypal_subscription_button.php:330
+#: views/payments/payment-gateway/admin_stripe_buy_now_button.php:62
+#: views/payments/payment-gateway/admin_stripe_buy_now_button.php:346
+#: views/payments/payment-gateway/admin_stripe_sca_buy_now_button.php:62
+#: views/payments/payment-gateway/admin_stripe_sca_buy_now_button.php:328
+msgid "Payment Currency"
+msgstr "支払通貨"
+
+#: views/payments/payment-gateway/admin_braintree_buy_now_button.php:128
+#: views/payments/payment-gateway/admin_paypal_buy_now_button.php:127
+#: views/payments/payment-gateway/admin_paypal_buy_now_button.php:325
+#: views/payments/payment-gateway/admin_paypal_smart_checkout_button.php:215
+#: views/payments/payment-gateway/admin_paypal_subscription_button.php:201
+#: views/payments/payment-gateway/admin_paypal_subscription_button.php:488
+#: views/payments/payment-gateway/admin_stripe_buy_now_button.php:188
+#: views/payments/payment-gateway/admin_stripe_buy_now_button.php:472
+#: views/payments/payment-gateway/admin_stripe_sca_buy_now_button.php:188
+#: views/payments/payment-gateway/admin_stripe_sca_buy_now_button.php:454
+#: views/payments/payment-gateway/admin_stripe_sca_subscription_button.php:248
+#: views/payments/payment-gateway/admin_stripe_subscription_button.php:240
+msgid "Save Payment Data"
+msgstr "支払データ保存"
+
+#: views/payments/payment-gateway/admin_braintree_buy_now_button.php:60
+#: views/payments/payment-gateway/admin_paypal_buy_now_button.php:44
+#: views/payments/payment-gateway/admin_paypal_buy_now_button.php:242
+#: views/payments/payment-gateway/admin_paypal_smart_checkout_button.php:59
+#: views/payments/payment-gateway/admin_stripe_buy_now_button.php:54
+#: views/payments/payment-gateway/admin_stripe_buy_now_button.php:339
+#: views/payments/payment-gateway/admin_stripe_sca_buy_now_button.php:54
+#: views/payments/payment-gateway/admin_stripe_sca_buy_now_button.php:321
+msgid "Payment Amount"
+msgstr "支払金額"
+
+#: views/payments/admin_payment_buttons.php:6
+msgid "All the membership buttons that you created in the plugin are displayed here."
+msgstr "作成した会員メンバーのボタンはこちらに表示されます。"
+
+#: views/payments/payment-gateway/admin_paypal_subscription_button.php:114
+#: views/payments/payment-gateway/admin_paypal_subscription_button.php:399
+msgid "Billing Cycle Count"
+msgstr "請求サイクルカウント"
+
+#: views/payments/payment-gateway/admin_braintree_buy_now_button.php:42
+#: views/payments/payment-gateway/admin_paypal_buy_now_button.php:26
+#: views/payments/payment-gateway/admin_paypal_buy_now_button.php:224
+#: views/payments/payment-gateway/admin_paypal_smart_checkout_button.php:41
+#: views/payments/payment-gateway/admin_paypal_subscription_button.php:27
+#: views/payments/payment-gateway/admin_paypal_subscription_button.php:312
+#: views/payments/payment-gateway/admin_stripe_buy_now_button.php:36
+#: views/payments/payment-gateway/admin_stripe_buy_now_button.php:323
+#: views/payments/payment-gateway/admin_stripe_sca_buy_now_button.php:36
+#: views/payments/payment-gateway/admin_stripe_sca_buy_now_button.php:305
+#: views/payments/payment-gateway/admin_stripe_sca_subscription_button.php:100
+#: views/payments/payment-gateway/admin_stripe_subscription_button.php:100
+msgid "Button Title"
+msgstr "ボタンタイトル"
+
+#: views/admin_membership_manage.php:19
+msgid "Example Content Protection Settings"
+msgstr "コンテンツ保護の設定例"
+
+#: views/payments/admin_payment_settings.php:41
+msgid "Generate Code"
+msgstr "コードを生成する"
+
+#: views/admin_tools_settings.php:29
+msgid "Generate Registration Completion Link"
+msgstr "登録完了リンクを生成する"
+
+#: views/admin_tools_settings.php:21
+msgid "Generate a Registration Completion link"
+msgstr "登録完了リンクを生成する"
+
+#: views/payments/admin_create_payment_buttons.php:25
+msgid "Select Payment Button Type"
+msgstr "支払ボタンの種類選択"
+
+#: classes/admin-includes/class.swpm-payments-admin-menu.php:23
+msgid "Simple Membership::Payments"
+msgstr "Simple Membership::支払"
+
+#: classes/class.swpm-members.php:713
+msgid "Simple WP Membership::Members"
+msgstr "Simple WP Membership::会員メンバー"
+
+#: classes/class.swpm-membership-levels.php:265
+msgid "Simple WP Membership::Membership Levels"
+msgstr "Simple WP Membership::会員ランク"
+
+#: views/payments/admin_edit_payment_buttons.php:17
+msgid "You can edit a payment button using this interface."
+msgstr "この画面より支払ボタンを編集できます。"
+
+#: views/payments/payment-gateway/admin_paypal_subscription_button.php:18
+#: views/payments/payment-gateway/admin_paypal_subscription_button.php:298
+msgid "PayPal Subscription Button Configuration"
+msgstr "PayPal 購読ボタンの設定"
+
+#: views/payments/payment-gateway/admin_paypal_buy_now_button.php:108
+#: views/payments/payment-gateway/admin_paypal_buy_now_button.php:306
+#: views/payments/payment-gateway/admin_paypal_subscription_button.php:180
+#: views/payments/payment-gateway/admin_paypal_subscription_button.php:467
+#: views/payments/payment-gateway/admin_stripe_buy_now_button.php:166
+#: views/payments/payment-gateway/admin_stripe_buy_now_button.php:450
+#: views/payments/payment-gateway/admin_stripe_sca_buy_now_button.php:166
+#: views/payments/payment-gateway/admin_stripe_sca_buy_now_button.php:432
+#: views/payments/payment-gateway/admin_stripe_sca_subscription_button.php:235
+#: views/payments/payment-gateway/admin_stripe_subscription_button.php:227
+msgid "Button Image URL"
+msgstr "ボタン画像 URL"
+
+#: views/payments/payment-gateway/admin_braintree_buy_now_button.php:117
+#: views/payments/payment-gateway/admin_paypal_buy_now_button.php:92
+#: views/payments/payment-gateway/admin_paypal_buy_now_button.php:290
+#: views/payments/payment-gateway/admin_paypal_smart_checkout_button.php:204
+#: views/payments/payment-gateway/admin_paypal_subscription_button.php:172
+#: views/payments/payment-gateway/admin_paypal_subscription_button.php:459
+#: views/payments/payment-gateway/admin_stripe_buy_now_button.php:158
+#: views/payments/payment-gateway/admin_stripe_buy_now_button.php:442
+#: views/payments/payment-gateway/admin_stripe_sca_buy_now_button.php:158
+#: views/payments/payment-gateway/admin_stripe_sca_buy_now_button.php:424
+#: views/payments/payment-gateway/admin_stripe_sca_subscription_button.php:227
+#: views/payments/payment-gateway/admin_stripe_subscription_button.php:219
+msgid "Return URL"
+msgstr "リターン URL"
+
+#: views/payments/payment-gateway/admin_paypal_buy_now_button.php:16
+#: views/payments/payment-gateway/admin_paypal_buy_now_button.php:207
+msgid "PayPal Buy Now Button Configuration"
+msgstr "PayPal 購入ボタン設定"
+
+#: views/loggedin.php:18
+msgid "Account Expiry"
+msgstr "アカウントの有効期限"
+
+#: views/loggedin.php:6
+msgid "Logged in as"
+msgstr "ログイン中: "
+
+#: views/admin_tools_settings.php:24
+msgid "You can manually generate a registration completion link here and give it to your customer if they have missed the email that was automatically sent out to them after the payment."
+msgstr "支払い後に自動的に送信されたメールが紛失した場合、ここで手動で登録完了リンクを生成し、会員に渡すことができます。"
+
+#: views/payments/admin_all_payment_transactions.php:12
+msgid "Search for a transaction by using email or name"
+msgstr "メールまたは名前を使ってトランザクションを検索する"
+
+#: views/payments/admin_all_payment_transactions.php:6
+msgid "All the payments/transactions of your members are recorded here."
+msgstr "会員のすべての支払い / 取引がここに記録されます。"
+
+#: views/payments/admin_payment_settings.php:39
+msgid "Enter the Membership Level ID"
+msgstr "会員ランク ID を入力してください"
+
+#: views/payments/admin_payment_settings.php:36
+msgid "Generate the \"Advanced Variables\" Code for your PayPal button"
+msgstr "PayPal ボタンの「詳細変数」コードを生成する"
+
+#: views/payments/admin_payment_settings.php:33
+msgid "PayPal Integration Settings"
+msgstr "PayPal の統合設定"
+
+#: classes/class.swpm-membership-levels.php:272
+msgid "Category Protection"
+msgstr "カテゴリー保護"
+
+#: views/admin_edit.php:11
+msgid "Edit Member"
+msgstr "メンバーの編集"
+
+#: views/admin_add.php:40
+msgid "Add New Member "
+msgstr "新規メンバーの追加"
+
+#: views/admin_add.php:30 views/admin_edit.php:53 views/loggedin.php:10
+msgid "Account Status"
+msgstr "アカウント状態"
+
+#: views/admin_add_level.php:52
+msgid "Add New Membership Level "
+msgstr "新規メンバーシップレベルの追加"
+
+#: classes/class.swpm-settings.php:1200
+msgid "Simple WP Membership::Settings"
+msgstr "Simple WP Membership::設定"
+
+#: views/admin_add_ons_page.php:11
+msgid "Simple WP Membership::Add-ons"
+msgstr "Simple WP Membership::アドオン"
+
+#: classes/class.swpm-auth.php:318
+msgid "Please login again."
+msgstr "再度ログインしてください。"
+
+#: classes/class.simple-wp-membership.php:740
+msgid "Payments"
+msgstr "支払い"
+
+#: classes/class.swpm-utils-misc.php:85
+msgid "Member Login"
+msgstr "メンバーログイン"
+
+#: classes/class.swpm-settings.php:157
+msgid "Login Page URL"
+msgstr "ログインページ URL"
+
+#: classes/class.swpm-settings.php:168
+msgid "Registration Page URL"
+msgstr "会員ページ URL"
+
+#: views/payments/payment-gateway/admin_paypal_subscription_button.php:166
+#: views/payments/payment-gateway/admin_paypal_subscription_button.php:453
+#: views/payments/payment-gateway/admin_stripe_sca_subscription_button.php:213
+#: views/payments/payment-gateway/admin_stripe_subscription_button.php:205
+msgid "Optional Details"
+msgstr "設定の詳細"
+
+#: views/admin_member_form_common_part.php:58
+msgid "Member Since"
+msgstr "会員登録日"
+
+#: views/admin_edit_level.php:6
+msgid "Edit membership level"
+msgstr "会員レベルの編集"
+
+#: views/admin_edit.php:98
+msgid "Last Accessed From IP"
+msgstr "最終アクセス日時"
+
+#: views/admin_edit.php:66
+msgid "Notify User"
+msgstr "会員に知らせる"
+
+#: views/admin_edit.php:44
+msgid "(twice, leave empty to retain old password)"
+msgstr "(二度入力。同じパスワードを利用する場合は空欄にする。)"
+
+#: views/admin_edit.php:13
+msgid "Edit existing member details."
+msgstr "既存会員の詳細を編集"
+
+#: views/admin_edit_level.php:32
+msgid "Weeks (Access expires after given number of weeks)"
+msgstr "週（指定した数の週の間有効）"
+
+#: views/admin_edit_level.php:27
+msgid "No Expiry (Access for this level will not expire until cancelled)"
+msgstr "無期限（キャンセルしない限り有効）"
+
+#: views/admin_category_list.php:8
+msgid "Next, select an existing membership level from the drop-down box below and then select the categories you want to grant access to (for that particular membership level)."
+msgstr "次にドロップダウンメニューから既存の会員レベルを選択し、その会員レベルのユーザーにのみ公開するカテゴリーを選びます。"
+
+#: views/admin_category_list.php:5
+msgid "First of all, globally protect the category on your site by selecting \"General Protection\" from the drop-down box below and then select the categories that should be protected from non-logged in users."
+msgstr "まず、ドロップダウンメニューからGeneral Protectionを選び、ログインしていないユーザーに非公開にするカテゴリーを選択します。"
+
+#: views/admin_addon_settings.php:3
+msgid "Some of the simple membership plugin's addon settings and options will be displayed here (if you have them)"
+msgstr "アドオンの設定やオプションがここに表示されます。"
+
+#: views/admin_add_level.php:33 views/admin_edit_level.php:41
+msgid "(Access expires on a fixed date)"
+msgstr "（指定した日付まで有効）"
+
+#: views/admin_add_level.php:32 views/admin_edit_level.php:40
+msgid "Fixed Date Expiry"
+msgstr "有効期限を指定"
+
+#: views/admin_add_level.php:31 views/admin_edit_level.php:38
+msgid "Years (Access expires after given number of years)"
+msgstr "年（指定した数の年の間有効）"
+
+#: views/admin_add_level.php:29 views/admin_edit_level.php:35
+msgid "Months (Access expires after given number of months)"
+msgstr "ヶ月（指定した数の月の間有効）"
+
+#: views/admin_add_level.php:27
+msgid "Weeks (Access expires after given number of weeks"
+msgstr "週（指定した数の週の間有効）"
+
+#: views/admin_add_level.php:25 views/admin_edit_level.php:29
+msgid "Days (Access expires after given number of days)"
+msgstr "日（指定した日数で有効）"
+
+#: views/admin_add_level.php:24 views/admin_add_level.php:26
+#: views/admin_add_level.php:28 views/admin_add_level.php:30
+#: views/admin_edit_level.php:28 views/admin_edit_level.php:31
+#: views/admin_edit_level.php:34 views/admin_edit_level.php:37
+msgid "Expire After"
+msgstr "有効期限"
+
+#: views/admin_add_level.php:23
+msgid "No Expiry (Access for this level will not expire until cancelled"
+msgstr "無期限（キャンセルしない限り有効）"
+
+#: views/admin_add_level.php:20 views/admin_edit_level.php:24
+msgid "Access Duration"
+msgstr "有効期限"
+
+#: views/admin_add_level.php:12 views/admin_edit_level.php:16
+msgid "Membership Level Name"
+msgstr "会員レベル名"
+
+#: views/admin_add_level.php:7
+msgid "Create new membership level."
+msgstr "新規会員レベルを作成"
+
+#: views/admin_add.php:20
+msgid "(twice, required)"
+msgstr "(二度入力、必須)"
+
+#: views/admin_add.php:26 views/admin_edit.php:49
+msgid "Hint: The password should be at least seven characters long. To make it stronger, use upper and lower case letters, numbers and symbols like ! \" ? $ % ^ &amp; )."
+msgstr "ヒント: パスワードは7文字以上。より強いパスワードにするために、大文字・小文字を使い、数字や  ! \\\" ? $ % ^ &amp; ) 等の記号の使用を推奨します。"
+
+#: classes/shortcode-related/class.swpm-shortcodes-handler.php:89
+msgid "Click on the following link to complete the registration."
+msgstr "以下のリンクをクリックして会員登録を完了してください。"
+
+#: classes/shortcode-related/class.swpm-shortcodes-handler.php:70
+msgid "Your membership profile will be updated to reflect the payment."
+msgstr "会員プロフィールが更新されました。"
+
+#: classes/class.swpm-settings.php:449
+msgid "Email Settings (Password Reset)"
+msgstr "メール設定（パスワードリセット）"
+
+#: classes/class.swpm-settings.php:362
+msgid "Enter the email address where you want the admin notification email to be sent to."
+msgstr "送信したい管理者のメールアドレスを入力してください。"
+
+#: classes/class.swpm-settings.php:404
+msgid "Admin Email Address"
+msgstr "管理者のメールアドレス"
+
+#: classes/class.swpm-init-time-tasks.php:144
+msgid "Sorry, Password didn't match."
+msgstr "パスワードが一致してません。"
+
+#: classes/class.swpm-front-registration.php:385
+msgid "No user found with that email address."
+msgstr "メールアドレスに該当するユーザーが見つかりませんでした。"
+
+#: classes/class.swpm-front-registration.php:316
+msgid "Profile updated successfully. You will need to re-login since you changed your password."
+msgstr "プロフィールが更新されました。再度ログインが必要です。"
+
+#: classes/class.swpm-init-time-tasks.php:137
+msgid "Sorry, Nonce verification failed."
+msgstr "認証に失敗しました。"
+
+#: classes/class.swpm-front-registration.php:303
+msgid "Profile updated successfully."
+msgstr "プロフィールが更新されました。"
+
+#: classes/class.swpm-front-registration.php:95
+msgid "Security check: captcha validation failed."
+msgstr "セキュリティチェック: キャプチャ認証に失敗しました。"
+
+#: classes/class.swpm-category-list.php:99
+msgid "Category protection updated!"
+msgstr "限定カテゴリを更新しました。"
+
+#: classes/class.swpm-admin-registration.php:166
+msgid "Your current password"
+msgstr "現在のパスワード"
+
+#: classes/class.swpm-admin-registration.php:79
+msgid "Member record added successfully."
+msgstr "会員情報が追加されました。"
+
+#: classes/class.simple-wp-membership.php:736
+msgid "WP Membership"
+msgstr "WP Membership"
+
+#: classes/class.simple-wp-membership.php:532
+msgid "Select the membership level that can access this content:"
+msgstr "このコンテンツを閲覧できる会員レベルを選択してください:"
+
+#: classes/class.simple-wp-membership.php:497
+msgid "Simple WP Membership Protection"
+msgstr "Simple WP Membership プロテクション"
+
+#: classes/class.swpm-front-registration.php:59
+#: classes/class.swpm-utils-misc.php:364 views/login.php:38
+msgid "Join Us"
+msgstr "会員について"
+
+#: classes/class.swpm-settings.php:945 classes/class.swpm-settings.php:991
+#: classes/class.swpm-settings.php:1019
+msgid "Settings updated!"
+msgstr "設定を更新しました。"
+
+#: classes/class.swpm-settings.php:579
+msgid "When enabled, expired members will be able to log into the system but won't be able to view any protected content. This allows them to easily renew their account by making another payment."
+msgstr "この機能を有効にした場合、ログインはできるが会員限定コンテンツは閲覧できません。"
+
+#: classes/class.swpm-settings.php:573
+msgid "Enable Expired Account Login"
+msgstr "有効期限切れのアカウントのログインを有効にする"
+
+#: classes/class.swpm-settings.php:474
+msgid " Email Settings (Account Upgrade Notification)"
+msgstr "メール設定（会員レベルのアップグレードのお知らせ）"
+
+#: classes/class.swpm-settings.php:368
+msgid "Email Settings (Registration Complete)"
+msgstr "メール設定（登録完了）"
+
+#: classes/class.swpm-settings.php:337
+msgid "Email Settings (Prompt to Complete Registration )"
+msgstr "メール設定（登録完了のお知らせ）"
+
+#: classes/class.swpm-settings.php:314
+msgid "From Email Address"
+msgstr "送信元メールアドレス"
+
+#: classes/class.swpm-settings.php:310
+msgid "Email Misc. Settings"
+msgstr "メール設定"
+
+#: classes/class.swpm-settings.php:213
+msgid "Check this option to enable debug logging."
+msgstr "デバッグログを有効にする場合はチェック"
+
+#: classes/class.swpm-settings.php:693
+msgid "Select how long you want to keep \"pending\" account."
+msgstr "保留中のアカウントの期間を選択。"
+
+#: classes/class.swpm-settings.php:681
+msgid "Auto Delete Pending Account"
+msgstr "自動で保留中アカウントの削除"
+
+#: classes/class.swpm-settings.php:663
+msgid "Allow users to delete their accounts."
+msgstr "会員によるアカウント削除を許可"
+
+#: classes/class.swpm-settings.php:657
+msgid "Allow Account Deletion"
+msgstr "アカウント削除の許可"
+
+#: classes/class.swpm-settings.php:131
+msgid "Select the default account status for newly registered users. If you want to manually approve the members then you can set the status to \"Pending\"."
+msgstr "会員登録したユーザーのデフォルトステータスを選択。新規登録の許可を管理者が手動で行う場合は「保留中」を選びます。"
+
+#: classes/class.swpm-settings.php:123 classes/class.swpm-settings.php:761
+msgid "Default Account Status"
+msgstr "デフォルトアカウントステータス"
+
+#: classes/class.swpm-membership-levels.php:23
+msgid "Access Valid For/Until"
+msgstr "アクセス有効期限"
+
+#: classes/class.swpm-membership-level.php:68
+msgid "Membership Level Creation Successful."
+msgstr "会員レベルを作成しました。"
+
+#: classes/class.swpm-members.php:27 views/admin_member_form_common_part.php:11
+msgid "Access Starts"
+msgstr "アクセス開始日"
+
+#: classes/class.swpm-level-form.php:58
+msgid "Access duration must be > 0."
+msgstr "有効期限の数値を1以上に設定してください。"
+
+#: classes/class.swpm-form.php:210
+msgid "Invalid membership level"
+msgstr "会員レベルが無効です。"
+
+#: classes/class.swpm-form.php:203
+msgid "Account state field is invalid"
+msgstr "アカウントの状態の項目が無効です。"
+
+#: classes/class.swpm-form.php:192
+msgid "Gender field is invalid"
+msgstr "性別の項目が無効です。"
+
+#: classes/class.swpm-form.php:182
+msgid "Access starts field is invalid"
+msgstr "アクセス開始の項目が無効です。"
+
+#: classes/class.swpm-form.php:171
+msgid "Member since field is invalid"
+msgstr "会員登録日の項目が無効です。"
+
+#: classes/class.swpm-form.php:119
+msgid "Email is already used."
+msgstr "メールアドレスがすでに登録済みです。"
+
+#: classes/class.swpm-utils-member.php:36
+#: classes/class.swpm-utils-member.php:44
+#: classes/class.swpm-utils-member.php:52
+#: classes/class.swpm-utils-member.php:62
+#: classes/class.swpm-utils-member.php:68
+msgid "User is not logged in."
+msgstr "ログインしていません。"
+
+#: classes/shortcode-related/class.swpm-shortcodes-handler.php:90
+msgid "Click here to complete your paid registration"
+msgstr "こちらのリンクをクリックして支払い手続きを完了してください。"
+
+#: classes/shortcode-related/class.swpm-shortcodes-handler.php:95
+msgid "If you have just made a membership payment then your payment is yet to be processed. Please check back in a few minutes. An email will be sent to you with the details shortly."
+msgstr "会員登録のためのお支払い手続きの処理中です。数分後にもう一度ご確認ください。後ほど詳細についてメールが送付されます。"
+
+#: views/payments/payment-gateway/admin_paypal_subscription_button.php:135
+#: views/payments/payment-gateway/admin_paypal_subscription_button.php:422
+msgid "Trial Billing Details (Leave empty if you are not offering a trial period)"
+msgstr "トライアル請求詳細（もしトライアル期間を設定していなければ空欄にすること）"
+
+#: classes/class.swpm-settings.php:84
+msgid "Enables or disables \"more\" tag protection in the posts and pages. Anything after the More tag is protected. Anything before the more tag is teaser content."
+msgstr "投稿やページの「More タグ」による限定公開を有効化・無効化する。More タグ以降のコンテンツが限定公開されます。"
+
+#: classes/class.swpm-settings.php:78
+msgid "Enable More Tag Protection"
+msgstr "More タグ以下のコンテンツを限定公開"
+
+#: classes/class.swpm-settings.php:73
+msgid "Assign free membership level ID"
+msgstr "無料会員のレベル ID を指定"
+
+#: classes/class.swpm-settings.php:67
+msgid "Free Membership Level ID"
+msgstr "無料会員レベルの ID"
+
+#: classes/class.swpm-settings.php:62
+msgid "Enable/disable registration for free membership level. When you enable this option, make sure to specify a free membership level ID in the field below."
+msgstr ""
+"無料会員レベルの有効化 / 無効化。この機能を利用するときは、無料会員レベルの ID\n"
+" を入力してください。"
+
+#: classes/class.swpm-utils-misc.php:364
+msgid "Not a Member?"
+msgstr "あなたは会員ですか ?"
+
+#: classes/class.swpm-settings.php:438
+msgid "Send Email to Member When Added via Admin Dashboard"
+msgstr "管理者の管理画面から会員登録した場合、登録された会員宛てにメールする。"
+
+#: classes/class.swpm-settings.php:211
+msgid "Test & Debug Settings"
+msgstr "テスト & デバッグ設定"
+
+#: classes/class.swpm-settings.php:201
+msgid "Password Reset Page URL"
+msgstr "パスワードリセットページ URL"
+
+#: classes/class.swpm-settings.php:190
+msgid "Edit Profile Page URL"
+msgstr "プロフィールの編集ページ URL"
+
+#: classes/class.swpm-settings.php:179
+msgid "Join Us Page URL"
+msgstr "会員登録の案内ページ URL"
+
+#: classes/class.simple-wp-membership.php:527
+msgid "Do you want to protect this content?"
+msgstr "このコンテンツを限定公開にしますか ?"
+
+#: classes/class.simple-wp-membership.php:509
+msgid "Simple Membership Protection options"
+msgstr "Simple WP Membership プロテクション設定"
+
+#: classes/shortcode-related/class.swpm-shortcodes-handler.php:71
+msgid "Your profile username: "
+msgstr "あなたのユーザー名:"
+
+#: views/admin_add_level.php:16 views/admin_edit_level.php:20
+msgid "Default WordPress Role"
+msgstr "WordPress のデフォルトユーザー権限"
+
+#: views/admin_edit.php:75
+msgid "Subscriber ID/Reference"
+msgstr "購読者 ID/参照"
+
+#. Description of the plugin
+msgid "A flexible, well-supported, and easy-to-use WordPress membership plugin for offering free and premium content from your WordPress site."
+msgstr "WordPress サイトから無料で提供されている、柔軟で、よくサポートされ、使いやすい WordPress メンバーシッププラグイン。"
+
+#: views/admin_edit_level.php:60
+msgid "Save Membership Level "
+msgstr "会員レベルを保存"
+
+#: classes/class.swpm-membership-levels.php:271
+msgid "Manage Content Protection"
+msgstr "コンテンツ保護の管理"
+
+#: views/login.php:35
+msgid "Forgot Password?"
+msgstr "パスワードをお忘れですか？"
+
+#: classes/class.swpm-settings.php:351 classes/class.swpm-settings.php:382
+#: classes/class.swpm-settings.php:463 classes/class.swpm-settings.php:488
+#: classes/class.swpm-settings.php:524 classes/class.swpm-settings.php:549
+msgid "Email Body"
+msgstr "メール本文"
+
+#: classes/class.swpm-form.php:52
+msgid "Username contains invalid character"
+msgstr "ユーザー名が無効な文字列を含んでいます"
+
+#: classes/class.swpm-form.php:60
+msgid "Username already exists."
+msgstr "ユーザー名がすでに存在します。"
+
+#: views/admin_tools_settings.php:38
+msgid "Send Registration Reminder Email Too"
+msgstr "登録通知リマインダーメールも送信"
+
+#: classes/class.swpm-members.php:221
+msgid "No member found."
+msgstr "メンバーは見つかりませんでした。"
+
+#: classes/class.swpm-settings.php:232
+msgid "Enable Sandbox Testing"
+msgstr "Sandbox テストを有効化"
+
+#: classes/class.swpm-category-list.php:36
+msgid "Description"
+msgstr "説明"
+
+#: classes/admin-includes/class.swpm-payments-list-table.php:84
+#: views/forgot_password.php:5
+#: views/payments/admin_add_edit_transaction_manually.php:75
+msgid "Email Address"
+msgstr "メールアドレス"
+
+#: classes/admin-includes/class.swpm-payment-buttons-list-table.php:95
+#: classes/admin-includes/class.swpm-payments-list-table.php:110
+#: classes/class.swpm-members.php:49
+#: classes/class.swpm-membership-levels.php:36
+msgid "Delete"
+msgstr "削除"
+
+#: classes/admin-includes/class.swpm-payments-list-table.php:88
+#: classes/class.swpm-post-list.php:43 classes/class.swpm-post-list.php:52
+#: classes/class.swpm-post-list.php:62
+#: views/payments/admin_add_edit_transaction_manually.php:125
+msgid "Date"
+msgstr "日付"
+
+#: classes/class.swpm-category-list.php:37
+msgid "Count"
+msgstr "数"
+
+#: classes/class.swpm-members.php:21
+#: classes/class.swpm-membership-levels.php:20
+msgid "ID"
+msgstr "ID"
+
+#: classes/admin-includes/class.swpm-payments-list-table.php:91
+#: views/payments/admin_add_edit_transaction_manually.php:117
+msgid "Amount"
+msgstr "金額"
+
+#: classes/admin-includes/class.swpm-payment-buttons-list-table.php:80
+msgid "Button Shortcode"
+msgstr "ショートコードボタン"
+
+#: classes/admin-includes/class.swpm-payments-list-table.php:85
+#: classes/class.swpm-members.php:23 views/add.php:34
+#: views/admin_member_form_common_part.php:15 views/edit.php:39
+#: views/payments/admin_add_edit_transaction_manually.php:83
+msgid "First Name"
+msgstr "名"
+
+#: classes/admin-includes/class.swpm-payments-list-table.php:86
+#: classes/class.swpm-members.php:24 views/add.php:38
+#: views/admin_member_form_common_part.php:19 views/edit.php:43
+#: views/payments/admin_add_edit_transaction_manually.php:91
+msgid "Last Name"
+msgstr "姓"
+
+#: classes/admin-includes/class.swpm-payment-buttons-list-table.php:77
+msgid "Payment Button Title"
+msgstr "支払ボタンタイトル"
+
+#: classes/admin-includes/class.swpm-payment-buttons-list-table.php:128
+#: views/admin_members_list.php:8
+#: views/payments/admin_all_payment_transactions.php:32
+msgid "The selected entry was deleted!"
+msgstr "選択したエントリーは削除されました。"
+
+#: classes/admin-includes/class.swpm-payments-list-table.php:89
+#: views/payments/admin_add_edit_transaction_manually.php:133
+msgid "Transaction ID"
+msgstr "トランザクション ID"
+
+#: classes/admin-includes/class.swpm-payments-list-table.php:83
+msgid "Row ID"
+msgstr "列 ID"
+
+#: classes/admin-includes/class.swpm-payment-buttons-list-table.php:78
+msgid "Membership Level ID"
+msgstr "会員レベル ID"
+
+#: classes/admin-includes/class.swpm-payment-buttons-list-table.php:76
+msgid "Payment Button ID"
+msgstr "支払ボタン ID"
+
+#: classes/admin-includes/class.swpm-payments-list-table.php:92
+#: classes/class.swpm-category-list.php:19 classes/class.swpm-members.php:26
+#: classes/class.swpm-membership-levels.php:11
+#: classes/class.swpm-membership-levels.php:21
+#: classes/class.swpm-post-list.php:20 views/add.php:42
+#: views/admin_members_list.php:50 views/admin_member_form_common_part.php:2
+#: views/edit.php:75 views/payments/admin_add_edit_transaction_manually.php:107
+#: views/payments/payment-gateway/admin_braintree_buy_now_button.php:50
+#: views/payments/payment-gateway/admin_paypal_buy_now_button.php:34
+#: views/payments/payment-gateway/admin_paypal_buy_now_button.php:232
+#: views/payments/payment-gateway/admin_paypal_smart_checkout_button.php:49
+#: views/payments/payment-gateway/admin_paypal_subscription_button.php:35
+#: views/payments/payment-gateway/admin_paypal_subscription_button.php:320
+#: views/payments/payment-gateway/admin_stripe_buy_now_button.php:44
+#: views/payments/payment-gateway/admin_stripe_buy_now_button.php:330
+#: views/payments/payment-gateway/admin_stripe_sca_buy_now_button.php:44
+#: views/payments/payment-gateway/admin_stripe_sca_buy_now_button.php:312
+#: views/payments/payment-gateway/admin_stripe_sca_subscription_button.php:108
+#: views/payments/payment-gateway/admin_stripe_subscription_button.php:108
+msgid "Membership Level"
+msgstr "会員レベル"
+
+#: classes/class.swpm-access-control.php:47
+#: classes/class.swpm-access-control.php:120
+msgid "You need to login to view this content. "
+msgstr "このコンテンツを閲覧するにはログインが必要です。"
+
+#: classes/class.simple-wp-membership.php:738
+#: classes/class.swpm-category-list.php:20
+#: classes/class.swpm-membership-levels.php:12
+#: classes/class.swpm-membership-levels.php:269
+#: classes/class.swpm-post-list.php:21
+msgid "Membership Levels"
+msgstr "会員レベル"
+
+#: classes/class.swpm-auth.php:301
+msgid "Session Expired."
+msgstr "セッションが期限切れです。"
+
+#: classes/class.swpm-auth.php:248
+msgid "Logged Out Successfully."
+msgstr "ログアウトしました。"
+
+#: classes/class.swpm-auth.php:184
+msgid "You are logged in as:"
+msgstr "ログイン名:"
+
+#: classes/class.swpm-auth.php:147 classes/class.swpm-auth.php:176
+msgid "Account has expired."
+msgstr "アカウントが期限切れです。"
+
+#: classes/class.swpm-auth.php:150
+msgid "Account is pending."
+msgstr "アカウントが保留中です。"
+
+#: classes/class.swpm-auth.php:144
+msgid "Account is inactive."
+msgstr "アカウントが無効です。"
+
+#: classes/class.swpm-auth.php:103
+msgid "Password Empty or Invalid."
+msgstr "パスワードが未記入または無効です。"
+
+#: classes/class.swpm-auth.php:96
+msgid "User Not Found."
+msgstr "ユーザーが見つかりません。"
+
+#: classes/class.swpm-ajax.php:25 classes/class.swpm-ajax.php:45
+msgid "Available"
+msgstr "有効"
+
+#: classes/class.swpm-ajax.php:18
+msgid "Invalid Email Address"
+msgstr "メールアドレスが無効です。"
+
+#: classes/class.swpm-admin-registration.php:87
+#: classes/class.swpm-admin-registration.php:149
+#: classes/class.swpm-admin-registration.php:187
+#: classes/class.swpm-membership-level.php:73
+#: classes/class.swpm-membership-level.php:105
+msgid "Please correct the following:"
+msgstr "以下の内容を修正してください。"
+
+#: classes/class.swpm-access-control.php:204
+msgid "You need to login to view the rest of the content. "
+msgstr "このコンテンツを閲覧するにはログインが必要です。"
+
+#: classes/class.swpm-access-control.php:217
+msgid " The rest of the content is not permitted for your membership level."
+msgstr "これからの先のコンテンツはあなたの会員レベルでは閲覧できません。"
+
+#: classes/class.swpm-access-control.php:79
+#: classes/class.swpm-access-control.php:148
+msgid "This content is not permitted for your membership level."
+msgstr "このコンテンツはあなたの会員レベルでは閲覧できません。"
+
+#: classes/class.simple-wp-membership.php:689 classes/class.swpm-auth.php:310
+msgid "Invalid Username"
+msgstr "無効なユーザー名"
+
+#: classes/class.swpm-ajax.php:25 classes/class.swpm-ajax.php:44
+msgid "Already taken"
+msgstr "取得済み"
