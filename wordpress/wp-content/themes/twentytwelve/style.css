@@ -1834,3 +1834,51 @@ img#wpstats {
 		margin-left: 3.57142857rem;
 	}
 }
+
+/* Customize for BuddyPress
+----------------------------------------------- */
+.buddypress-wrap .members-list li {
+	overflow: auto;
+	list-style: none;
+	float: left;
+	width: 30%;
+	margin: 0 20px 28px 0;
+	border: 0;
+}
+
+.buddypress-wrap .members-list li h2.member-name {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.buddypress-wrap .members-list ul.item-list li div.item-title, .buddypress-wrap .members-list ul.item-list li h4,.buddypress-wrap .members-list ul.item-list li div.item-meta
+{
+	width: 100%;
+	text-align: center;
+}
+
+.buddypress-wrap .members-list ul.item-list li div.item-title {
+	font-size: 110%;
+}
+
+.buddypress-wrap .members-list ul.item-list li div.item-meta {
+	text-transform: uppercase;
+	font-size: 80%;
+}
+
+#members-list ul.item-list li img.avatar {
+	margin-bottom: 8px;
+}
+
+.buddypress-wrap .members-list img.avatar {
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+	-webkit-box-shadow: 0 1px 0 #fff;
+	-moz-box-shadow: 0 1px 0 #fff;
+	box-shadow: 0 1px 0 #fff;
+}
