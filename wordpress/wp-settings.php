@@ -14,6 +14,8 @@
  * @since 1.0.0
  */
 define( 'WPINC', 'wp-includes' );
+define('WP_MEMORY_LIMIT', '128M');
+define('WP_MAX_MEMORY_LIMIT', '128M');
 
 /**
  * Version information for the current WordPress release.
