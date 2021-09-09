@@ -157,9 +157,41 @@ function bp_core_get_users( $args = '' ) {
 
 	// Default behavior as of BuddyPress 1.7.0.
 	} else {
+		// filter with supporting members
+		$supporting_member_level_id = -1;
+		$levels = SwpmMembershipLevelUtils::get_all_membership_levels_in_array();
+		foreach ($levels as $level_id => $level_name) {
+			if ($level_name === '維持会員') {
+				$supporting_member_level_id = $level_id;
+				break;
+			}
+		}
+
+		if ($supporting_member_level_id === -1) {
+			throw new Exception('Supporting membership level not found');
+		}
+
+		$swpm_users = SwpmMemberUtils::get_all_members_of_a_level($level_id);
+		$filter_with_status = function($user) {
+			return $user->account_state === 'active';
+		};
+
+		$get_swpm_user_name = function($user) {
+			return $user->user_name;
+		};
+
+		$active_swpm_user_names = array_map($get_swpm_user_name, array_filter($swpm_users, $filter_with_status));
+
+		// convert to WP user IDs
+		$wp_users = new WP_User_Query(array('login__in' => $active_swpm_user_names));
+		$get_user_id = function($user) {
+			return $user->ID;
+		};
+
+		$user_ids = array_map($get_user_id, $wp_users->get_results());
 
 		// Get users like we were asked to do...
-		$users = new BP_User_Query( $r );
+		$users = new BP_User_Query( array_merge($r, array('user_ids' => $user_ids)) );
 
 		// ...but reformat the results to match bp_core_get_users() behavior.
 		$retval = array(
